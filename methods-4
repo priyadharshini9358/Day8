@@ -1,0 +1,23 @@
+public class method3 {
+	int age;
+	String name;
+	method3(int a ,String str)
+	{
+		this.age=a;
+		this.name=str;
+	}
+	void display()
+	{
+		System.out.println(age +" "+ name);
+	}
+	method3(float b)
+	{
+		System.out.println(b);
+	}
+	public static void main(String[] args) {
+		method3 obj=new method3(5,"riya");
+		method3 obj1=new method3(5.5f);
+		obj.display();
+	}
+}
+
