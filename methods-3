@@ -1,0 +1,29 @@
+public class method2 {
+	
+		method2()
+		{
+			System.out.println("hi");
+		}
+		int age;
+		String name;
+		method2(int a ,String str)
+		{
+			age=a;
+			name=str;
+		}
+		void display()
+		{
+			System.out.println(age +"  "+ name);
+		}
+		method2(float b)
+		{
+			System.out.println(b);
+		}
+		public static void main(String[] args) {
+			method2 obj=new method2(5,"riya");
+			method2 obj1=new method2(5.5f);
+			obj.display();
+	
+		}
+	}
+
