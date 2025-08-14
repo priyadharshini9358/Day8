@@ -1,0 +1,12 @@
+public class New {
+	int rollno=13;
+	static String collegename="zion";	
+	
+    static void show(int a) {
+	 New.collegename="mountzion";
+	  System.out.println(a+ " " + collegename);
+    }
+      public static void main(String[] args) {
+	   New.show(55);
+}
+}
