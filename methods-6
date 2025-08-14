@@ -1,0 +1,25 @@
+	class Dad
+	{
+		void property()
+		{
+			System.out.println("lands,money,house");
+		}
+	}
+	class Daughter extends 	Dad
+	{
+		void show()
+		{
+			System.out.println("scooty");
+		}
+	}
+	
+		public class method5
+		{
+		
+	    public static void main(String[] args)
+	    {
+	    	Daughter dt=new Daughter();
+	    	dt.property();
+	    }
+		}
+	    
