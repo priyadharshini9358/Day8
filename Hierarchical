@@ -1,0 +1,36 @@
+class Elder
+	{
+		void property()
+		{
+			System.out.println("VILLA");
+		}
+	}
+	class Son extends Elder
+	{
+		void show()
+		{
+			System.out.println("BIKE");
+		}
+	}
+	class Girl extends Elder
+	{
+		void display()
+		{
+			System.out.println("SCOOTY");
+		}
+	}
+
+		public class Hierarchical
+		{
+		
+	    public static void main(String[] args)
+	    {
+	    	 Girl sn=new Girl();
+	    	
+	    	sn.property();
+	    	sn.display();
+	    }
+		}
+	    
+
+	   
