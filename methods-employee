@@ -1,0 +1,20 @@
+public class Employee {
+	int Empid=23;
+	String name="priya";
+	static String officename="zoho";
+	
+	void main (int a, String name)
+	{
+		System.out.println(a+ " " + name + "  " + officename);
+	}
+
+	public static void main(String[] args) {
+	 Employee obj=new Employee();
+       System.out.println(obj.Empid);
+       System.out.println(Employee.officename);
+       Employee.officename="tcs";
+       obj.main(23,"priya");
+       obj.main(54,"riya");
+       obj.main(62,"shiya");
+	}
+}
