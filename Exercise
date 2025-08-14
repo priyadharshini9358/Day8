@@ -1,0 +1,28 @@
+public class exer {
+	static
+	{
+		System.out.println("mountzion");
+	}
+	    int id=73;
+		String name="priya";
+		static String housename="homey";
+		
+		
+		void display (int a, String name)
+		{
+			System.out.println(a+ " " + name + "  " + housename);
+		}
+			 static void show(int a) {
+				 exer.housename="mountzion";
+				  System.out.println(a+ " " + housename);
+			    }
+			      
+		public static void main(String[] args) {
+		 exer obj=new exer();
+	       System.out.println(obj.id);
+	       System.out.println(exer.housename);
+	       obj.display(56,"priya");
+	      
+		}
+}
+	
