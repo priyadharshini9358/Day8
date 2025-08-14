@@ -1,0 +1,20 @@
+public class Main2 {
+		int rollno=23;
+		String name="priya";
+		static String collegename="mount";
+		
+		void main (int a, String name)
+		{
+			System.out.println(a+ " " + name + "  " + collegename);
+		}
+	
+		public static void main(String[] args) {
+		 Main2 obj=new Main2();
+	       System.out.println(obj.rollno);
+	       System.out.println(Main2.collegename);
+	       
+	       obj.main(23,"priya");
+	       obj.main(54,"riya");
+	       obj.main(62,"shiya");
+		}
+}
