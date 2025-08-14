@@ -1,0 +1,41 @@
+class Grandma
+{
+	void property()
+	{
+		System.out.println("VILLA");
+	}
+}
+class Mom extends Grandma
+{
+	void show()
+	{
+		System.out.println("LANDS,MONEY");
+	}
+}
+class Child extends Mom
+{
+	void display()
+	{
+		System.out.println("SCOOTY");
+	}
+}
+
+	public class inheritance
+	{
+	
+    public static void main(String[] args)
+    {
+    	Child dt=new Child();
+
+    	dt.show();
+    	dt.property();
+    	dt.display();
+    }
+	}
+    
+
+   
+
+
+
+
