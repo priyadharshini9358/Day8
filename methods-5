@@ -1,0 +1,17 @@
+public class Method4 {
+	void display()
+	{
+		System.out.println("hello display!..");
+	}
+void show()
+{   
+	this.display();
+	System.out.println("hello show!!..");
+	
+}
+public static void main(String[] args) {
+	Method4 obj=new Method4();
+	obj.show();
+}
+}
+
